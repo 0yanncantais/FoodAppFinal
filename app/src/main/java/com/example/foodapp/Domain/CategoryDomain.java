@@ -1,10 +1,10 @@
 package com.example.foodapp.Domain;
 
-public class FoodDomain {
+public class CategoryDomain {
     private String title;
     private String pic;
 
-    public FoodDomain(String title, String pic) {
+    public CategoryDomain(String title, String pic) {
         this.title = title;
         this.pic = pic;
     }
