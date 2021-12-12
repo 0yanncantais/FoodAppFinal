@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import com.example.foodapp.Adapter.CategoryAdapter;
+import com.example.foodapp.Adapter.PopularAdapter;
 import com.example.foodapp.Domain.CategoryDomain;
+import com.example.foodapp.Domain.FoodDomain;
 
 import java.util.ArrayList;
 
@@ -24,6 +26,18 @@ private RecyclerView recyclerViewCategoryList,recyclerViewPopularList;
     }
 
     private void recyclerViewPopular() {
+        LinearLayoutManager linearLayoutManager=new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false);
+        recyclerViewPopularList=findViewById(R.id.recyclerView2);
+        recyclerViewPopularList.setLayoutManager(linearLayoutManager);
+        ArrayList<FoodDomain> foodList=new ArrayList<>();
+        foodList.add(new FoodDomain("Pepperonni Pizza","@pizza2","",12.0,0));
+        foodList.add(new FoodDomain("Sushi","@pizza2","",10.0,0));
+        foodList.add(new FoodDomain("Tacos","@pizza2","",8.0,0));
+        foodList.add(new FoodDomain("Drink","@pizza2","",2.0,0));
+        foodList.add(new FoodDomain("Fries","@pizza2","",3.0,0));
+
+        adapter2=new PopularAdapter(foodList);
+        recyclerViewPopularList.setAdapter(adapter2);
     }
 
     private void recyclerViewCategory() {

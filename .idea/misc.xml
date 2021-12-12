@@ -15,11 +15,14 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2015625" />
         <entry key="app/src/main/res/drawable/search_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/viewholder_cat.xml" value="0.1398148148148148" />
+        <entry key="app/src/main/res/layout/activity_card_list.xml" value="0.1308641975308642" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_show_detail.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_show_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/viewholder_card.xml" value="0.1" />
         <entry key="app/src/main/res/layout/viewholder_cat.xml" value="1.0" />
         <entry key="app/src/main/res/layout/viewholder_popular.xml" value="0.45" />
       </map>
