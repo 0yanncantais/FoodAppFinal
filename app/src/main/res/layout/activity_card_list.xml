@@ -157,7 +157,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
-                android:background="@drawable/orange_button_background"
+                android:background="@drawable/button_background"
                 android:gravity="center"
                 android:text="CheckOut"
                 android:textColor="#ffffff"
@@ -213,8 +213,7 @@
                         android:id="@+id/imageView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom_btn1" />
+                        app:srcCompat="@drawable/home" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -236,7 +235,7 @@
                         android:id="@+id/imageView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/bottom_btn2" />
+                        app:srcCompat="@drawable/home" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -281,7 +280,7 @@
                         android:id="@+id/imageView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/bottom_btn3" />
+                        app:srcCompat="@drawable/home" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -303,7 +302,7 @@
                         android:id="@+id/imageView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/bottom_btn4" />
+                        app:srcCompat="@drawable/home" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -322,10 +321,10 @@
             android:id="@+id/card_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#ff5e00"
+            android:backgroundTint="#f6f6f6"
             android:elevation="3dp"
             android:src="@drawable/shopping_cart"
-            app:backgroundTint="#ff5e00"
+            app:backgroundTint="#f6f6f6"
             app:layout_anchor="@id/app_bar"
             app:maxImageSize="30dp"
             app:tint="#ffffff" />

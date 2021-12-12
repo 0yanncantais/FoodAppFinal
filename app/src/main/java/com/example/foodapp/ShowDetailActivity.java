@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 import com.example.foodapp.Domain.FoodDomain;
-import com.example.foodapp.Helper.ManagementCard;
+import com.example.foodapp.Helper.ManagementCart;
 
 public class ShowDetailActivity extends AppCompatActivity {
     private TextView addToCardBtn;
@@ -17,14 +17,14 @@ public class ShowDetailActivity extends AppCompatActivity {
     private ImageView plusBtn, minusBtn, picFood;
     private FoodDomain object;
     private int numberOrder = 1;
-    private ManagementCard managementCart;
+    private ManagementCart managementCart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_detail);
 
-        managementCart = new ManagementCard(this);
+        managementCart = new ManagementCart(this);
 
         initView();
         getBundle();

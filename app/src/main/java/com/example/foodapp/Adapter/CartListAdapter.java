@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.foodapp.Domain.FoodDomain;
-import com.example.foodapp.Helper.ManagementCard;
+import com.example.foodapp.Helper.ManagementCart;
 import com.example.foodapp.Interface.ChangeNumberItemsListener;
 import com.example.foodapp.R;
 
@@ -20,13 +20,13 @@ import java.util.ArrayList;
 
 public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.ViewHolder> {
     private final ArrayList<FoodDomain> foodDomains;
-    private final ManagementCard managementCart;
+    private final ManagementCart managementCart;
     private final ChangeNumberItemsListener changeNumberItemsListener;
 
     public CartListAdapter(ArrayList<FoodDomain> FoodDomains, Context context, ChangeNumberItemsListener changeNumberItemsListener) {
 
         this.foodDomains = FoodDomains;
-        managementCart = new ManagementCard(context);
+        managementCart = new ManagementCart(context);
         this.changeNumberItemsListener = changeNumberItemsListener;
     }
 
