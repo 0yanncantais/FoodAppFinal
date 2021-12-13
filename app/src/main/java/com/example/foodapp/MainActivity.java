@@ -77,7 +77,7 @@ private MyDatabase dataBase;
         FloatingActionButton floatingActionButton = findViewById(R.id.card_btn);
         LinearLayout homeBtn = findViewById(R.id.homeBtn);
         LinearLayout recettesBtn = findViewById(R.id.recettesBtn);
-
+        LinearLayout locationBtn = findViewById(R.id.locationBtn);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -96,6 +96,12 @@ private MyDatabase dataBase;
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, RecettesActivity.class));
+            }
+        });
+        locationBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, LocationActivity.class));
             }
         });
     }

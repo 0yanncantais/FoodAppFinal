@@ -36,6 +36,8 @@
         <activity
             android:name=".IntroActivity"
             android:exported="true" />
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyBwTSw1s6p7kZX7O5xkDGDmzmtRBWyHAAY"/>
     </application>
 
 </manifest>
